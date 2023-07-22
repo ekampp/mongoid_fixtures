@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake',    '~> 12.3'
   spec.add_development_dependency 'rspec',   '~> 3.9.0'
   spec.add_dependency  'linguistics',    '~> 2.0.4'
-  spec.add_dependency  'mongoid',        '~> 7.0'
+  spec.add_dependency  'mongoid',        '> 7.0'
   spec.add_dependency  'monkey_patches', '~> 0.0.3'
   spec.add_development_dependency 'bcrypt'
 end
