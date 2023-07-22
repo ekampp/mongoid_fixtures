@@ -7,7 +7,7 @@ require 'mongoid_fixtures/version'
 Gem::Specification.new do |spec|
   spec.name          = 'mongoid_fixtures'
   spec.version       = MongoidFixtures::VERSION
-  spec.authors       = ['Javier L. Velasquez']
+  spec.authors       = ['Javier L. Velasquez', "Emil Kampp<emil@kampp.me>"]
   spec.email         = ['nycjv321@gmail.com']
 
   spec.summary       = 'Provides mechanism to easily create fixtures with Mongoid'
